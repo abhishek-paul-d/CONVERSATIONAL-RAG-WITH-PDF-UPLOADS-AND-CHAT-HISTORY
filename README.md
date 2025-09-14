@@ -2,7 +2,7 @@
 
 A sophisticated **Retrieval-Augmented Generation (RAG)** application that enables users to upload PDF documents and engage in intelligent, context-aware conversations about their content. Built with Streamlit, LangChain, and powered by cutting-edge AI technologies.
 
-![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+![Python](https://img.shields.io/badge/python-v3.10-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-v1.28+-red.svg)
 ![LangChain](https://img.shields.io/badge/langchain-v0.1+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -44,41 +44,6 @@ User Query → History-Aware Retriever → Document Retrieval → Context Assemb
 - Python 3.8 or higher
 - Groq API key (sign up at [console.groq.com](https://console.groq.com))
 - HuggingFace account (optional, for embedding model access)
-
-### Quick Start
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/conversational-rag-pdf.git
-   cd conversational-rag-pdf
-   ```
-
-2. **Create virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set up environment variables** (optional)
-   ```bash
-   # Create .env file
-   echo "HF_TOKEN=your_huggingface_token_here" > .env
-   ```
-
-5. **Run the application**
-   ```bash
-   streamlit run app.py
-   ```
-
-6. **Access the application**
-   - Open your browser to `http://localhost:8501`
-   - Enter your Groq API key in the interface
-   - Upload PDF files and start chatting!
 
 ## 📦 Dependencies
 
@@ -149,6 +114,10 @@ sentence-transformers>=2.2.0
 👤 User: "What about the methodology section?"
 🤖 Assistant: "Regarding the methodology you mentioned earlier..."
 ```
+<img width="1920" height="1080" alt="Screenshot 2025-09-14 115100" src="https://github.com/user-attachments/assets/5a3e3e98-5bfc-4d25-92ce-2d0352994aa1" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-14 115146" src="https://github.com/user-attachments/assets/a0ed735d-8c96-44b4-a606-77bf10b0683b" /><img width="1920" height="1080" alt="Screenshot 2025-09-14 115217" src="https://github.com/user-attachments/assets/4ff75bf0-83e6-444e-b37f-6e8532a0a466" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-14 115217" src="https://github.com/user-attachments/assets/a6360c16-d432-44a7-a1e7-67f4440d2680" />
+
 
 ### Session Management
 
@@ -206,3 +175,4 @@ sentence-transformers>=2.2.0
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Groq API Documentation](https://console.groq.com/docs)
 - [Chroma Vector Database](https://www.trychroma.com/)
+
