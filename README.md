@@ -115,10 +115,8 @@ sentence-transformers>=2.2.0
 🤖 Assistant: "Regarding the methodology you mentioned earlier..."
 ```
 <img width="1920" height="1080" alt="Screenshot 2025-09-14 115100" src="https://github.com/user-attachments/assets/5a3e3e98-5bfc-4d25-92ce-2d0352994aa1" />
-<img width="1920" height="1080" alt="Screenshot 2025-09-14 115146" src="https://github.com/user-attachments/assets/a0ed735d-8c96-44b4-a606-77bf10b0683b" /><img width="1920" height="1080" alt="Screenshot 2025-09-14 115217" src="https://github.com/user-attachments/assets/4ff75bf0-83e6-444e-b37f-6e8532a0a466" />
-<img width="1920" height="1080" alt="Screenshot 2025-09-14 115217" src="https://github.com/user-attachments/assets/a6360c16-d432-44a7-a1e7-67f4440d2680" />
-
-
+<img width="1920" height="1080" alt="Screenshot 2025-09-14 115146" src="https://github.com/user-attachments/assets/a0ed735d-8c96-44b4-a606-77bf10b0683b" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-14 115217" src="https://github.com/user-attachments/assets/4ff75bf0-83e6-444e-b37f-6e8532a0a466" />
 ### Session Management
 
 - **Session ID**: Set custom session identifiers to maintain separate conversations
@@ -175,4 +173,5 @@ sentence-transformers>=2.2.0
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Groq API Documentation](https://console.groq.com/docs)
 - [Chroma Vector Database](https://www.trychroma.com/)
+
 
